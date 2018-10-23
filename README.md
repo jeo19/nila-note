@@ -4,10 +4,10 @@ Offline-First Markdown Note Taking App built with Apollo
 
 ## Prerequisites
 
-Required | Version
----|---
-node | `>=8.10.0`
-Yarn | [Stable vesion](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
+| Required | Version                                                               |
+| -------- | --------------------------------------------------------------------- |
+| node     | `>=8.10.0`                                                            |
+| Yarn     | [Stable vesion](https://yarnpkg.com/lang/en/docs/install/#mac-stable) |
 
 ### Install node, yarn
 
@@ -20,12 +20,20 @@ $ npm install -g yarn
 ```
 
 ### Install project
+
 ```bash
 $ nvm use
 $ yarn install
 ```
 
 ### Run
+
 ```bash
 $ yarn start # Connect to http://localhost:3000/nomad-notes in browser
 ```
+
+### Bug Fix
+
+#### It does changed styled-components 'injectGlobal' to 'createGlobalStyle'
+
+#### I'm tried running because of the Path parameter of Route component
