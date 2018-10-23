@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
+import { injectGlobal } from "styled-components";
 
-createGlobalStyle`
+injectGlobal`
     :root {
         --greyColor: #A2A19E;
         --blackColor: #373630;
@@ -53,5 +53,6 @@ createGlobalStyle`
         &:active{
             outline:none
         }
+
     }
 `;
